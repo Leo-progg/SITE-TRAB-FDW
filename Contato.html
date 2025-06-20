@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="CSS/Contato.css" />
+</head>
+<body>
+
+<!-- Dando forma ao cabeçalho com os links -->
+
+  <div id="header">
+    <h1>Meu Currículo Online</h1>
+    <div id="cabecalho">
+
+        <a href="Index.html">Início</a>
+        <a href="Formação.html">Formação</a>
+        <a href="Portifolio.html">Portfólio</a>
+        <a href="Sobre Mim.html">Sobre Mim</a>
+        <a href="Contato.html">Contato</a>
+    </div>
+</div>
+
+<!-- Adicionando conteúdo a página -->
+
+  <div class="conteudo1pagina">
+    <div class="estilopost">
+      <h2>Caso queira entrar em contato comigo</h2>
+        
+    <form action="contato.php" method="POST">
+        </br>
+
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50">
+        </br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="Email" placeholder="Digite seu email" size="50" maxlength="50"> 
+        </br>
+
+        <label for="mensagem"> Mensagem:</label>
+        </br>
+        <textarea name="opiniao" rows="5" cols="40" placeholder="Digite sua mensagem"></textarea> <!-- Formato do balão para mensagem -->
+
+        </br>
+        </br>
+        <input name="Submit" type="submit" id="Submit" value="Enviar"> <!-- Botão enviar -->
+
+    </form>
+
+
+    </div>
+</div>
+
+
+  <div id="rodape">
+    <p>Todos os direitos reservados - Leonardo Piva</p>
+  </div>
+
+</body>
+</html>
